@@ -18,7 +18,7 @@ A simple python tool for crack old TP-Link routers.
 
 ### install one line 
 ```
-pkg update && pkg upgrade -y && pkg install git python -y && pip3 install pycryptodome && git clone https://github.com/Gtajisan/wifi-admin-hack && cd admin-hack.py && python admin-hack.py -h
+pkg update && pkg upgrade -y && pkg install git python -y && pip3 install pycryptodome && git clone https://github.com/Gtajisan/admin-pannel && cd admin-pannel && python Main.py -h
 ```
 
 ### Installation :
@@ -27,11 +27,11 @@ pkg update && pkg upgrade -y && pkg install git python -y && pip3 install pycryp
 pkg update && pkg upgrade -y
 pkg install git python -y
 pip3 install pycryptodome
-git clone https://github.com/Gtajisan/wifi-admin-hack
+git clone https://github.com/Gtajisan/admin-pannel
 ```
 ```
-cd wifi-admin-hack
-chmod +x admin-hack.py
+cd admin-pannel
+chmod +x admin-pannel
 ```
 
 #### Help : 
@@ -41,7 +41,7 @@ python admin-hack.py -h
 
 #### Usage : 
 ```
-python admin-hack.py conf.xml [ you ip ] 
+python Main.py conf.xml [ you ip ] 
 ```
 
 #### Note: 
